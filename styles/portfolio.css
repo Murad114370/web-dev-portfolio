@@ -23,10 +23,13 @@ nav{
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color:#FFF8F3;
+}
 .dark-2{
     color: #474747;
 }
-.dark-3, .skill-description{
+.dark-3, .skill-description,.experience-description,.experience-subtitle,hr{
     color:#757575;
 }
 .nav-title{
@@ -99,9 +102,7 @@ nav ul {
     color:#757575;
     line-height: 30px;
 }
-.secondary-bg{
-    background-color:#FFF8F3;
-}
+
 /* about section */
 .about{
     border-radius: 10px;
@@ -138,4 +139,43 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 71px;
+    text-align: left;
+}
+.experience-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    display: block;
+    width: 100%;
+    border: none;
+    
 }
