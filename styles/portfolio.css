@@ -85,3 +85,37 @@ nav ul {
     margin-top: 10px;
     background-position: top left,bottom right;
 }
+/* section styles */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+}
+.secondary-bg{
+    background-color:#FFF8F3;
+}
+/* about section */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align:center;
+    margin-top: 110px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    line-height: 10px;
+    align-items: center;
+}
